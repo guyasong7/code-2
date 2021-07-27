@@ -1,0 +1,140 @@
+.logo {
+  height: 50px;
+  width: 30%;
+}
+
+.nav {
+  color: yellow;
+}
+
+h4,h3{
+  font-size: 15px;
+}
+.sub-nav {
+  background-color: black;
+  height: 40%;
+}
+
+.nav-link {
+  color: #fff;
+  font-weight: 600;
+  font-size: 11px;
+}
+
+.nav-link:hover {
+  background-color: yellow;
+  color: #000;
+}
+
+.active {
+  background-color: yellow;
+  color: #000;
+}
+
+.toggler-btn {
+  color: #fff;
+}
+
+.data {
+  background-color: black;
+  height: 10%;
+}
+
+.load {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+.welcome {
+  width: 100%;
+  height: 10%;
+}
+
+.text {
+  color: #fff;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+p {
+  color: #fff;
+}
+
+.log {
+  font-size: 2px;
+}
+
+.nav2 {
+  font-size: 15px;
+  padding-left: 60%;
+}
+
+.affix {
+  position: absolute;
+  left: 0.5%;
+  padding-bottom: 20px;
+}
+
+.btn {
+  background-color: yellow;
+  margin-bottom: 10px;
+}
+
+.social {
+  display: inline-flex;
+  margin-left: 20px;
+  padding-top: 40px;
+}
+
+.fa {
+  size: 30%;
+}
+
+.btn.btn-rounded {
+  border-radius: 50px;
+}
+
+a {
+  font-size: 15px;
+}
+
+.link2 {
+  display: inline-flex;
+  padding-right: 20px;
+  color: #ccc;
+  text-align: center;
+}
+
+.pri,
+.open {
+  color: #ccc;
+}
+
+.br {
+  margin-bottom: 10px;
+}
+
+.sub-nav {
+  margin-top: 5px;
+}
+@media (min-width: 400px) {
+  .sub-nav {
+    height: 10%;
+    padding: 10px;
+  }
+  p {
+    font-size: 10px;
+  }
+  .welcome {
+    height: 65vh;
+  }
+}
+
+@media (min-width: 600px) {
+  p {
+    font-size: 10px;
+  }
+}
